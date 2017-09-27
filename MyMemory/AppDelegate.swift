@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  MyMemory
-//
-//  Created by hwan ung Yu on 2017. 8. 28..
-//  Copyright © 2017년 hwan ung Yu. All rights reserved.
-//
+
 
 import UIKit
 import CoreData
@@ -13,10 +7,11 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var memolist = [MemoData]()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 

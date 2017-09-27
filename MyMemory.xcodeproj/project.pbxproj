@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2BAA4E1F6BB1EC0015602B /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2BAA4D1F6BB1EC0015602B /* CSLogButton.swift */; };
 		4D97891C1F541DE500A39850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97891B1F541DE500A39850 /* AppDelegate.swift */; };
-		4D97891E1F541DE500A39850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97891D1F541DE500A39850 /* ViewController.swift */; };
 		4D9789211F541DE500A39850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97891F1F541DE500A39850 /* Main.storyboard */; };
 		4D9789241F541DE500A39850 /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D9789221F541DE500A39850 /* MyMemory.xcdatamodeld */; };
 		4D9789261F541DE500A39850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9789251F541DE500A39850 /* Assets.xcassets */; };
 		4D9789291F541DE500A39850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9789271F541DE500A39850 /* LaunchScreen.storyboard */; };
+		4D9789311F54FFBC00A39850 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9789301F54FFBB00A39850 /* MemoListVC.swift */; };
+		4D9789331F54FFFB00A39850 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9789321F54FFFB00A39850 /* MemoFormVC.swift */; };
+		4D9789351F55000F00A39850 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9789341F55000F00A39850 /* MemoReadVC.swift */; };
+		4D9789371F55006000A39850 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9789361F55006000A39850 /* MemoCell.swift */; };
+		4D9789391F55013700A39850 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9789381F55013700A39850 /* MemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D2BAA4D1F6BB1EC0015602B /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
 		4D9789181F541DE500A39850 /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97891B1F541DE500A39850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D97891D1F541DE500A39850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D9789201F541DE500A39850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D9789231F541DE500A39850 /* MyMemory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMemory.xcdatamodel; sourceTree = "<group>"; };
 		4D9789251F541DE500A39850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9789281F541DE500A39850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D97892A1F541DE500A39850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9789301F54FFBB00A39850 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		4D9789321F54FFFB00A39850 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		4D9789341F55000F00A39850 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		4D9789361F55006000A39850 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		4D9789381F55013700A39850 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		4D97893B1F55490300A39850 /* fountainpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fountainpen@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +67,14 @@
 		4D97891A1F541DE500A39850 /* MyMemory */ = {
 			isa = PBXGroup;
 			children = (
+				4D97893A1F5548EB00A39850 /* Resources */,
 				4D97891B1F541DE500A39850 /* AppDelegate.swift */,
-				4D97891D1F541DE500A39850 /* ViewController.swift */,
+				4D9789301F54FFBB00A39850 /* MemoListVC.swift */,
+				4D9789321F54FFFB00A39850 /* MemoFormVC.swift */,
+				4D9789381F55013700A39850 /* MemoData.swift */,
+				4D9789361F55006000A39850 /* MemoCell.swift */,
+				4D9789341F55000F00A39850 /* MemoReadVC.swift */,
+				4D2BAA4D1F6BB1EC0015602B /* CSLogButton.swift */,
 				4D97891F1F541DE500A39850 /* Main.storyboard */,
 				4D9789251F541DE500A39850 /* Assets.xcassets */,
 				4D9789271F541DE500A39850 /* LaunchScreen.storyboard */,
@@ -65,6 +82,14 @@
 				4D9789221F541DE500A39850 /* MyMemory.xcdatamodeld */,
 			);
 			path = MyMemory;
+			sourceTree = "<group>";
+		};
+		4D97893A1F5548EB00A39850 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D97893B1F55490300A39850 /* fountainpen@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2BAA4E1F6BB1EC0015602B /* CSLogButton.swift in Sources */,
+				4D9789311F54FFBC00A39850 /* MemoListVC.swift in Sources */,
+				4D9789351F55000F00A39850 /* MemoReadVC.swift in Sources */,
 				4D9789241F541DE500A39850 /* MyMemory.xcdatamodeld in Sources */,
-				4D97891E1F541DE500A39850 /* ViewController.swift in Sources */,
+				4D9789391F55013700A39850 /* MemoData.swift in Sources */,
+				4D9789331F54FFFB00A39850 /* MemoFormVC.swift in Sources */,
 				4D97891C1F541DE500A39850 /* AppDelegate.swift in Sources */,
+				4D9789371F55006000A39850 /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +311,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UL22BZ9D7W;
 				INFOPLIST_FILE = MyMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,11 +327,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UL22BZ9D7W;
 				INFOPLIST_FILE = MyMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
