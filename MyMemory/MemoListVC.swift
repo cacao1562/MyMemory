@@ -4,12 +4,27 @@ import UIKit
 
 class MemoListVC: UITableViewController {
 
+    @IBOutlet weak var sideBarButton: UIBarButtonItem!
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        if let revealVC = self.revealViewController() {
+            self.sideBarButton.target = revealVC
+            self.sideBarButton.action = #selector(revealVC.revealToggle(_:))
+            self.view.addGestureRecognizer(revealVC.panGestureRecognizer())
+        }
+   
+    }
     //화면이 나타날 때마다 호출되는 메소드
     override func viewWillAppear(_ animated: Bool) {
         self.tableView.reloadData()
+        
+        
     }
+    
 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
